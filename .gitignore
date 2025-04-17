@@ -1,0 +1,24 @@
+# macOS system files
+.DS_Store
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.env/
+venv/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+
+# Output figures, models, and logs
+Outputs/
+Models/
+*.png
+*.jpg
+
