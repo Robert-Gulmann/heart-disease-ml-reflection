@@ -17,8 +17,8 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, classification_report, roc_auc_score, roc_curve
 
 # Step 2: Load the cleaned datasets
-file_path_original = "/Users/robertgulmann/Desktop/BS3/BAA1027-DataAnalytics-MachineLearning-Advanced-Python /HeartDisease_df_original.csv"
-file_path_capped = "/Users/robertgulmann/Desktop/BS3/BAA1027-DataAnalytics-MachineLearning-Advanced-Python /HeartDisease_df_capped.csv"
+file_path_original = '/Users/robertgulmann/heart-disease-ml-reflection/Data/Heart-Disease-Dataset.csv'
+file_path_capped = '/Users/robertgulmann/heart-disease-ml-reflection/Data/HeartDisease_df_capped.csv'
 
 df_original = pd.read_csv(file_path_original)
 df_capped = pd.read_csv(file_path_capped)
