@@ -13,12 +13,11 @@ venv/
 # Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Data files
-*.csv
+# Optional: Ignore large raw datasets elsewhere (but NOT from Data/)
+# raw_data/
+# *.log
 
-# Output figures, models, and logs
+# Ignore specific non-essential output types
 Outputs/
-Models/
 *.png
 *.jpg
-
